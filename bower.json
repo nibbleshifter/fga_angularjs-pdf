@@ -1,6 +1,6 @@
 {
   "name": "fga_angular-pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An Angularjs directive <ng-pdf> to display PDF in the browser with PDFJS.",
   "authors": ["Sayanee Basu", "FGA"],
   "main": "./dist/angular-pdf.js",
