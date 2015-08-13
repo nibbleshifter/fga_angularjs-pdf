@@ -84,8 +84,9 @@ module.exports = function(grunt) {
           jshintrc: '.jshintrc'
         },
         src: [
-          'Gruntfile.js',
-          'example/js/*.js'
+         /* 'Gruntfile.js',
+          'example/js/*.js',*/
+          'dist/*.js'
         ]
       }
     },

@@ -7,7 +7,6 @@
   "forin": true,
   "freeze": true,
   "immed": true,
-  "indent": 2,
   "latedef": true,
   "newcap": true,
   "noarg": true,
@@ -19,11 +18,11 @@
   "unused": true,
   "strict": true,
   "trailing": true,
-  "maxparams": true,
+  "maxparams": false,
   "maxdepth": 3,
   "maxstatements": false,
-  "maxcomplexity": true,
-  "maxlen": 80,
+  "maxcomplexity": false,
+  "maxlen": 120,
 
   "globals": {
     "app": true,
@@ -33,29 +32,5 @@
     "window": true,
     "document": true,
     "PDFJS": true
-  },
-
-  "asi": true,
-  "boss": false,
-  "debug": false,
-  "eqnull": false,
-  "esnext": false,
-  "evil": false,
-  "expr": false,
-  "funcscope": false,
-  "globalstrict": false,
-  "iterator": false,
-  "lastsemic": false,
-  "laxbreak": false,
-  "laxcomma": false,
-  "loopfunc": false,
-  "multistr": false,
-  "notypeof": false,
-  "proto": false,
-  "scripturl": false,
-  "smarttabs": false,
-  "shadow": false,
-  "sub": false,
-  "supernew": false,
-  "validthis": false
+  }
 }

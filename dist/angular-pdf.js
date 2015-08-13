@@ -22,15 +22,16 @@ angular.module('pdf', []);
 				return attr.templateUrl ? attr.templateUrl : 'partials/viewer.html'
 			},
 			link: ngPdfLink
-		}
+		};
 
 		function ngPdfLink(scope, element, attrs)
 		{
 			var url = scope.pdfUrl,
 			  pdfDoc = null,
 			  pageNum = (attrs.page ? attrs.page : 1),
-			  scale = 0.8,//attrs.scale > 0 ? attrs.scale : 1,
-			  canvas = (attrs.canvasid ? document.getElementById(attrs.canvasid) : document.getElementById('pdf-canvas')),
+			  scale = 0.6,//attrs.scale > 0 ? attrs.scale : 1,
+			  canvas = (attrs.canvasid ? document.getElementById(attrs.canvasid) 
+                            : document.getElementById('pdf-canvas')),
 			  ctx = canvas.getContext('2d'),
 			  windowEl = angular.element($window);
 
